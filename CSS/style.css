@@ -175,7 +175,7 @@ footer{
 #main{
     background: url('../images/BG.png') center center no-repeat;
     background-size: cover;
-    height: 120vh;
+    min-height: 100vh;
 }
 
 /* Typography
