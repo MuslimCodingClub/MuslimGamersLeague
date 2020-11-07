@@ -1,8 +1,9 @@
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    background-color: #111111;
     position: relative;
     margin: auto;
+    padding: 100px 10vw;
   }
   
   /* Hide the images by default */
@@ -90,3 +91,9 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+#firstProduct{
+  padding: 20px 0;
+  width: inherit;
+  display: block;
+}
