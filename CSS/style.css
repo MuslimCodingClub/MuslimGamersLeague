@@ -173,8 +173,6 @@ footer{
 /* Main Section
    =========  */
 #main{
-    background: url('../images/BG.png') center center no-repeat;
-    background-size: cover;
     min-height: 100vh;
 }
 
