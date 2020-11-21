@@ -1,0 +1,223 @@
+#main{
+    background-image: url(/images/BG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*Section 1*/
+
+#mainSection{
+    color: white;
+    padding: 150px;
+    text-align: center;
+}
+
+.joinNowButton{
+    background-color: #F8C621;
+    color: black !important;
+    width: 125px;
+    font-weight: 700;
+    font-family: 'Orbitron';
+}
+
+.joinNowButton:hover, .joinNowButton:focus{
+    background-color: #f8c621cc;
+}
+
+p {
+    text-align: center;
+    padding-top: 1em;
+  }
+ 
+  ul.social-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+  ul.social-set li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Font Awesome icons */
+  a.sociali {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  a.sociali:hover, a.sociali:focus {
+    background: #f8c621d5;
+  }
+  
+
+    /*Game Panels*/
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+      .grid-container {
+          margin: 2vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      .grid-container2 {
+      padding: 0 15vw;
+      margin: 1vw;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+      .seeAllGames{
+        display: block;
+        background-color: #00000000;
+        border: solid white 1px; 
+        color: rgb(255, 255, 255) !important;
+        width: 175px;
+        padding: 10px 0 10px 0;
+        font-weight: 700;
+        font-family: 'Orbitron';
+      }
+      .seeAllGames:hover{
+          background-color: rgba(0, 0, 0, 0.452);
+      }
+      .joinNowButton{
+        width: 200px;
+        padding: 10px 0 10px 0;
+      }
+      
+
+      /*SECTION 2 STARTS HERE*/
+
+      #sectionTwo{
+        background-image: url(/images/Among\ Us\ Skeld\ Map.png);
+        background-color: rgb(51, 48, 48);
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        width: 100%;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 100;
+        padding: 0 !important;
+      }
+      .backgroundOverlay{
+        background-color: rgba(0, 0, 0, 0.87);
+        width: 100%;
+        height: inherit;
+        padding: 200px 0 200px 0;
+      }
+
+    .aboutUsDescriptionsH2{
+      color: white;
+      font-family: 'Orbitron';
+      font-size: 18px;
+    }
+    .aboutUsDescriptionsP{
+      color: white;
+      font-family: 'Roboto';
+      font-weight: 100;
+      font-size: 15px;
+    }
+    .sectionThree{
+      background-color: black;
+    }
+
+    /*Section 3 Begins Here!*/
+
+    
+/*CONTACT FORM\/*/
+
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #F8C621;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #d1a103;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #29282700;
+  width: 35%;
+  margin: auto; 
+}
+label{
+  color: #F8C621;
+}
+
+/*CONTACT FORM ENDS HERE*/
+
+#sectionThreeLogo{
+  border-bottom: 2px solid #F8C621; 
+  padding: 15px;
+  width: 150px;
+}
+.sctThreeH1{
+  color: white;
+  text-align: center;
+}
