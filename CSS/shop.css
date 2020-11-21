@@ -1,14 +1,18 @@
 /* Slideshow container */
 .slideshow-container {
+  display: block;
     background-color: #111111;
     position: relative;
     margin: auto;
-    padding: 100px 10vw;
+    min-height: 98vh;
   }
   
   /* Hide the images by default */
   .mySlides {
+    margin-left: 15vw;
+    grid-template-columns: 6fr 6fr;
     display: none;
+    width: inherit;
   }
   
   /* Next & previous buttons */
@@ -20,8 +24,8 @@
     margin-top: -22px;
     padding: 16px;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 60px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -29,13 +33,16 @@
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
+    right: 10vw;
     border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 10vw;
   }
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.986);
   }
   
   /* Caption text */
@@ -64,14 +71,16 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #000000;
+    border: 2px solid #F8C621;
   }
   
   /* Fading animation */
@@ -93,7 +102,84 @@
   }
 
 #firstProduct{
-  padding: 20px 0;
-  width: inherit;
-  display: block;
+  background: url(../images/grayCircle.png) left bottom no-repeat;
+  backdrop-filter: opacity(0.7);
+
+}
+.model-image{
+  width: 65vh;
+}
+.mySlides2{
+  margin-top: 250px;
+  margin-right: 50px;
+}
+.mySlides1{
+  margin-top: 30px;
+}
+
+
+
+
+/* Typogrpahy */
+
+.h1-main{
+  font-family: 'Orbitron';
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+.h4-secondary{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.price-container{
+  display: flex;
+  margin: 20px 0;
+}
+.price{
+  font-size: 30px;
+  color: #F8C621;
+}
+.price2{
+  margin-left: 20px;
+  font-size: 30px;
+  color: #d4d4d4;
+  text-decoration: line-through;
+}
+.colortxt{
+  font-size: 18px;
+  color: #d4d4d4;
+}
+.colorsRound{
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 110px;
+}
+.colorPallet1{
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  border-radius: 50%;
+}
+.colorPallet2{
+  width: 30px;
+  height: 30px;
+  background: #dbdbdb;
+  border-radius: 50%;
+}
+.colorPallet3{
+  width: 30px;
+  height: 30px;
+  background: #3d1d03;
+  border-radius: 50%;
+}
+.product-buynow{
+  color: white;
+  font-size: 17px;
+  border: 3px solid white;
+  padding: 10px 12px;
+  width: fit-content;
 }
