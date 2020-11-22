@@ -185,6 +185,25 @@ h2{
     color: white;
 
 }
+.header2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.header3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #D1A103;
+    padding: 20px 0;
+    margin: 0 32vw;
+}
+.header4{
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 3px solid white;
+    padding: 10px;
+    width: fit-content;
+}
 a{
     display: block;                                                              
     box-sizing: border-box;
