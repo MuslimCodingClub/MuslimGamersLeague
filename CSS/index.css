@@ -1,14 +1,14 @@
 #main{
     background-image: url(/images/BG.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /*Section 1*/
 
 #mainSection{
     color: white;
-    padding: 150px;
+    padding: 150px 150px 0 150px;
     text-align: center;
 }
 
