@@ -1,3 +1,6 @@
+#main{
+  background-color: #111111;
+}
 /* Slideshow container */
 .slideshow-container {
   display: block;
@@ -13,6 +16,13 @@
     grid-template-columns: 6fr 6fr;
     display: none;
     width: inherit;
+  }
+
+  .dots-container{
+    text-align:center; 
+    position: absolute; 
+    bottom: 50px; 
+    left: 50vw;
   }
   
   /* Next & previous buttons */
@@ -104,17 +114,22 @@
 #firstProduct{
   background: url(../images/grayCircle2.png) left bottom no-repeat;
   backdrop-filter: opacity(0.7);
-
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .model-image{
   width: 65vh;
+  height: inherit;
+  margin-top: 10px;
 }
 .mySlides2{
-  margin-top: 250px;
+  margin-top: 30vh;
   margin-right: 50px;
 }
 .mySlides1{
   margin-top: 30px;
+  padding: 0px;
+  height: inherit;
 }
 
 
@@ -231,11 +246,326 @@
 }
 
 /* Products section */
-#products{
+.products{
   background: #171717;
   padding: 3rem 10vw;
   text-align: center;
 }
 .productCarousel{
   margin: 2em 0;
+  text-align: center;
+
+}
+.productSlides{
+  display: none;
+  padding: 0 5vw;
+  grid-template-columns: repeat(3, 4fr);
+  justify-items: center;
+}
+.productSlides-tShirts{
+  display: none;
+  padding: 0 5vw;
+  grid-template-columns: repeat(3, 4fr);
+  justify-items: center;
+}
+.product-Container{
+  background: #111111;
+  padding: 30px;
+  width: fit-content;
+}
+.product-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(224, 224, 224);
+  padding-top: 10px;
+}
+.product-price-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.productPrice{
+  color: rgb(224, 224, 224);
+  font-size: 17px;
+  font-weight: 500;
+  color: #d1a103;
+}
+.productPrice2{
+  color: rgb(224, 224, 224);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+.addToCart{
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #d1a103;
+  padding: 10px 0;
+  border-radius: 1px;
+  transition: ease-in-out .3s;
+}
+.addToCart:hover{
+  color: rgb(212, 212, 212);
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ac8400;
+  padding: 10px 0;
+  border-radius: 1px;
+}
+  /* Next & previous buttons */
+  .prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: -17%;
+    padding: 16px;
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next1 {
+    right: 10vw;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev1{
+    left: 10vw;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0, 0, 0, 0.986);
+  }
+/* The dots/bullets/indicators */
+.dotp {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.pactive, .dotp:hover {
+  background-color: #000000;
+  border: 2px solid #F8C621;
+}
+.dotp2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.p2active, .dotp2:hover {
+  background-color: #000000;
+  border: 2px solid #F8C621;
+}
+
+@media screen and (max-width: 1500px){
+  #firstProduct{
+    background-position: 20% 0%;
+    background-size: 100vh;
+  }
+  .model-image{
+    width: 63.5vh;
+  }
+  .mySlides{
+    margin-left: 10vw;
+    padding: 0 5vw;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 6fr;
+  }
+  .mySlides1{
+
+  }
+  .mySlides2{
+    width: 100%;
+  }
+
+  /* Typography */
+  .h1-main{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1230px){
+  .mySlides{
+    margin-left: 5vw;
+    padding: 0 5vw;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 6fr;
+  }
+  .next {
+    right: 5vw;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 5vw;
+  }
+
+}
+@media screen and (max-width: 1050px){
+  .h4-secondary{
+    font-size: 15px;
+  }
+  .price{
+    font-size: 24px;
+  }
+  .price2{
+    font-size: 24px;
+  }
+  #firstProduct{
+    background-position: 20% 93%;
+    background-size: 77vh;
+  }
+  .model-image{
+    width: 50vh;
+  }
+  .mySlides2{
+    margin-top: 20vh;
+  }
+  #main{
+    min-height: 70vh;
+  }
+  .slideshow-container{
+    min-height: 70vh;
+  }
+  .dots-container{
+    text-align:center; 
+    position: absolute; 
+    bottom: 5vh; 
+    left: 60vw;
+  }
+
+}
+
+@media screen and (max-width: 799px){
+  #main{
+    min-height: 80vh;
+  }
+  .slideshow-container{
+    min-height: 80vh;
+  }
+  .dots-container{
+    text-align:center; 
+    position: absolute; 
+    bottom: 5vh; 
+    left: 66vw;
+  }
+  .mySlides{
+    grid-template-columns: 1fr;
+  }
+  .mySlides2{
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 30.5vh;
+    padding: 20px 5vw;
+    background-color: rgba(0, 0, 0, 0.692);
+
+  }
+}
+@media screen and (max-width: 730px){
+  #main{
+    min-height: 80vh;
+  }
+  .slideshow-container{
+    min-height: 80vh;
+  }
+  .dots-container{
+    text-align:center; 
+    position: absolute; 
+    bottom: 5vh; 
+    left: 60vw;
+  }
+  .mySlides{
+    margin-left: 0;
+    grid-template-columns: 1fr;
+  }
+  .mySlides2{
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 30.5vh;
+    padding: 20px 5vw;
+    background-color: rgba(0, 0, 0, 0.692);
+
+  }
+  .next {
+    right: 2vw;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 2vw;
+  }
+  .h1-main{
+    font-size: 28px;
+  }
+  .h4-secondary{
+    font-size: 17px;
+  }
+  .price{
+    font-size: 22px;
+  }
+  .price2{
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 640px){
+  #main{
+    min-height: 80vh;
+  }
+  .slideshow-container{
+    min-height: 80vh;
+  }
+  .dots-container{
+    text-align:center; 
+    position: absolute; 
+    bottom: 5vh; 
+    left: 60vw;
+  }
+  .mySlides{
+    margin-left: 0;
+    grid-template-columns: 1fr;
+  }
+  .mySlides2{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 30.5vh;
+    padding: 20px 5vw;
+    background-color: rgba(0, 0, 0, 0.692);
+
+  }
+  .next {
+    right: 2vw;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 2vw;
+  }
+  .h1-main{
+    font-size: 25px;
+  }
+  .h4-secondary{
+    font-size: 13px;
+  }
+  .price{
+    font-size: 20px;
+  }
+  .price2{
+    font-size: 20px;
+  }
 }
