@@ -97,8 +97,13 @@ function myFunction() {
     dots.style.display = "inline";
     btnText.innerHTML = "View all games";
     moreText.style.display = "none";
+    var img  = document.getElementsByClassName("cardImg");
+    img.classList.remove("hidden");
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "View all games";
     moreText.style.display = "inline";
+    var img  = document.getElementsByClassName("cardImg");
+    img.classList.add("hidden");
   }
+}
