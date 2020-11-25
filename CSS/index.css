@@ -13,10 +13,7 @@
   text-align: center;
 }
 .grid-container2{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 0 15% 0 15%;
+    padding: 0 10%;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -106,18 +103,18 @@ a.sociali {
 a.sociali:hover, a.sociali:focus {
   background: #f8c621d5;
 }
-
-
   /*Game Panels*/
   .column {
       width: 25%;
-      padding: 25px 0 0 0;
     }
-    
+    #grid-container2 > .row > .column{
+      
+    }
     /* Clear floats after the columns */
     .row {
       display: flex;
-      flex-wrap: wrap;    
+      flex-wrap: wrap;
+      justify-content: center;
   }
     /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1299px) {
