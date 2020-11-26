@@ -107,7 +107,7 @@ a.sociali:hover, a.sociali:focus {
   .column {
       width: 25%;
     }
-    #grid-container2 > .row > .column{
+    #grid-container2 > .row  .column{
       
     }
     /* Clear floats after the columns */
