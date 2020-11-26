@@ -108,5 +108,9 @@
         padding: 10px 0;
         margin: 0 32vw; 
     }
-
+.rules-link{
+    width: 300px;
+    margin: 10px;
+ }
+ 
 }
