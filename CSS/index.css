@@ -117,6 +117,9 @@ a.sociali:hover, a.sociali:focus {
       flex-wrap: wrap;
       justify-content: center;
   }
+  .hidden {
+    display: none;
+}
     /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1299px) {
   .column {
@@ -134,9 +137,6 @@ a.sociali:hover, a.sociali:focus {
   }
   p{
     padding: 0 10%; 
-  }
-  .hidden {
-      display: none;
   }
   #mainSection{
       padding: 150px 50px 0 50px;
@@ -169,6 +169,7 @@ a.sociali:hover, a.sociali:focus {
       width: 175px;
       padding: 10px 0 10px 0;
       font-weight: 700;
+      margin-top: 0px;
       font-family: 'Orbitron';
     }
     .seeAllGames:hover{

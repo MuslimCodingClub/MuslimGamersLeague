@@ -29,21 +29,16 @@ function showSlides(n) {
 
 //Index More Games Button Code
 function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var cards = document.querySelectorAll('.cardImg')
+  console.log(cards[0]);
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "View all games";
-    moreText.style.display = "none";
-    var img  = document.getElementsByClassName("cardImg");
-    img.classList.remove("hidden");
+  if (cards[0].classList.contains('hidden')) {
+      for (var i = 0; i < cards.length; i++) {
+        cards[i].classList.remove('hidden')
+      }
   } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "View all games";
-    moreText.style.display = "inline";
-    var img  = document.getElementsByClassName("cardImg");
-    img.classList.add("hidden");
+    for (var i = 0; i < cards.length; i++) {
+      cards[i].classList.add('hidden');
+    }
   }
 }
