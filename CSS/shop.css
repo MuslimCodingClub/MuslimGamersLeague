@@ -215,7 +215,7 @@ body{
 
 /* Ads Section */
 #adContainer{
-  overflow-x: hidden;
+  overflow: hidden;
   display: grid;
   grid-template-columns: 7fr 4fr;
 }
