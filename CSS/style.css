@@ -231,9 +231,16 @@ a:focus{
     padding: 8px 10px;
     border-radius: 5px;
     font-weight: 600;
+    width: fit-content;
 }
 .joinNowBTN:hover, .joinNowBTN:focus{
     background-color: #f8c621cc;
+    display: block;
+    color: black !important;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
 }
 
 .fab{
