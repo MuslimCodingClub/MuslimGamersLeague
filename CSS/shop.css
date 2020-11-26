@@ -1,4 +1,8 @@
+body{
+  overflow-x: hidden !important;
+}
 #main{
+  overflow: hidden;
   background-color: #111111;
 }
 /* Slideshow container */
@@ -625,18 +629,21 @@
     left: 2vw;
   }
   .h1-main{
-    font-size: 25px;
+    font-size: 22px;
   }
   .h4-secondary{
     font-size: 13px;
     max-width: 170px;
   }
   .price{
-    font-size: 20px;
+    font-size: 18px;
   }
   .price2{
-    font-size: 20px;
+    font-size: 18px;
   }
+  .colorPallet1{width: 25px; height: 25px;border: 1px solid white;}
+  .colorPallet2{width: 25px; height: 25px;border: 1px solid white;}
+  .colorPallet3{width: 25px; height: 25px;border: 1px solid white;}
 }
 
 
