@@ -629,6 +629,7 @@
   }
   .h4-secondary{
     font-size: 13px;
+    max-width: 170px;
   }
   .price{
     font-size: 20px;

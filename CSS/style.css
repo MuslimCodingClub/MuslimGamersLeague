@@ -399,6 +399,7 @@ ul.social-set {
 @media screen and (max-width: 700px){
     /* Footer
        ====== */
+
     footer{
         grid-template-areas: 'l l'
                              'r r'
@@ -417,5 +418,8 @@ ul.social-set {
     }
     .footer-center-wing{
         padding-top: 30px;
+    }
+    .footer-email{
+        font-size: 12px;
     }
 }
