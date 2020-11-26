@@ -428,4 +428,22 @@ ul.social-set {
     .footer-email{
         font-size: 12px;
     }
+
+    nav{
+        margin: 0 5vw;
+    }
+
+    .mobile-nav > div{
+        display: flex;
+    }
+    .mobile-nav > div >img{
+        width: 15%;
+    }
+    .mobile-nav > div >h2{
+        margin-top: 12px;
+        font-size: 1rem;
+    }
+    .mobile-nav-last-div{
+        margin-right: 3vw;
+    }
 }
