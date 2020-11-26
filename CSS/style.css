@@ -68,6 +68,12 @@ nav{
 .mobile-nav{
     display: none;
 }
+.mobile-nav > div > h2{
+    font-size: 12px;
+}
+.mobile-nav > div > img{
+    width: 5vw;
+}
 #mobileLinks{
     display: none;
     background-color: rgba(27, 27, 27, 0.89);
