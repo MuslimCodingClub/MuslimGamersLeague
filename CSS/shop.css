@@ -255,7 +255,7 @@
 /* Products section */
 .products{
   background: #171717;
-  padding: 3rem 10vw;
+  padding: 3rem 8vw;
   text-align: center;
 }
 .productCarousel{
@@ -277,8 +277,13 @@
 }
 .product-Container{
   background: #111111;
-  padding: 30px;
+  padding: 20px !important;
   width: fit-content;
+  margin: 0 10px;
+}
+.product-Container > img{
+  margin: 0 auto;
+  width: 80%;
 }
 .product-title{
   font-family: 'Roboto', sans-serif;
@@ -631,4 +636,73 @@
   .price2{
     font-size: 20px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+  width:100%;
+  padding-top: 20px;
+  text-align:center;
+  background: #171717;
+}
+.carousel1{
+  margin:0px auto;
+}
+div.slick-active {
+  outline: none !important;
+  border: none !important;
+}
+div.slick-active:focus {
+  outline: none !important;
+  border: none !important;
+}
+div.slick-active:hover {
+  outline: none !important;
+  border: none !important;
+}
+
+.active, .dot:hover {
+  background-color: #000000;
+  border: 2px solid #F8C621;
+}
+.slick-dots > li{
+  background-color: transparent !important;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+.slick-dots > li > button{
+  height: 15px !important;
+  width: 15px !important;
+  background-color: rgb(0, 0, 0) !important;
+  border: 2px solid white !important;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+.slick-dots > li > button::before{
+  color: transparent !important;
+}
+.slick-dots > li.slick-active > button{
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #F8C621 !important;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slick-next:before {
+  content: '❯' !important;
+  font-size: 50px !important;
+  line-height: 0 !important;
+}
+.slick-prev:before {
+  content: '❮' !important;
+  font-size: 50px !important;
+  line-height: 0 !important;
 }
