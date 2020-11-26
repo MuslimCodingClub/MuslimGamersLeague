@@ -202,6 +202,15 @@ body{
   border: 3px solid white;
   padding: 10px 12px;
   width: fit-content;
+  transition: ease-in-out 0.4s;
+}
+.product-buynow:hover, .product-buynow:focus{
+  color: #d1a103;
+  font-size: 17px;
+  border: 3px solid #d1a103;
+  background-color: rgb(24, 24, 24);
+  padding: 10px 12px;
+  width: fit-content;
 }
 
 /* Ads Section */
@@ -236,10 +245,18 @@ body{
 .viewProducts{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 10px;
+  padding: 10px;
   color: white;
   margin-top: 20px;
   border-bottom: 5px solid white;
+  width: fit-content;
+}
+.viewProducts:hover, .viewProducts:focus{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 20px;
   width: fit-content;
 }
 .trendingImage{
