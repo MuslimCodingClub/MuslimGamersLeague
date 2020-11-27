@@ -22,7 +22,44 @@
 
 }
 
-#section2{
-    background-color:Black;
+#Section2{
+    background:black;
     background-size: cover;
+}
+
+input[type=submit] {
+    background-color: #F8C621;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.joinNowButton {
+    background-color: #F8C621;
+    color: black !important;
+    width: 125px;
+    font-weight: 700;
+    font-family: 'Orbitron';
+    width: 200px;
+    padding: 10px 0 10px 0 ;
+}
+
+a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+@media only screen and (max-width:800px) {
+    .Ln{
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        border-bottom: 3px solid #D1A103;
+        padding: 10px 0;
+        margin: 0 32vw; 
+    }
+
+ 
 }
