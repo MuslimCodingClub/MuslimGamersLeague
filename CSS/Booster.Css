@@ -21,10 +21,15 @@
  font-family: 'roboto', sans-serif;
 
 }
+.boosterl{
+    color: white;
+    font-size: 50px;
+}
 
 #Section2{
     background:black;
     background-size: cover;
+    padding: 100px 0;
 }
 
 input[type=submit] {
