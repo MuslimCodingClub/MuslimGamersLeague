@@ -236,13 +236,7 @@ resize: vertical /* Allow the user to vertically resize the textarea (not horizo
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-background-color: #F8C621;
-color: white;
-padding: 12px 20px;
-border: none;
-cursor: pointer;
-}
+
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {

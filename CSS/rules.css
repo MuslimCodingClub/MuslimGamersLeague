@@ -85,6 +85,12 @@
 .rules-link{
     color: white;
 }
+.verify{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'orbitorn', sans-serif;
+}
 
   
 @media only screen and (max-width:800px) {
@@ -108,5 +114,9 @@
         padding: 10px 0;
         margin: 0 32vw; 
     }
-
+.rules-link{
+    width: 300px;
+    margin: 10px;
+ }
+ 
 }
