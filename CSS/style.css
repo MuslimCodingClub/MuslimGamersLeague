@@ -72,7 +72,7 @@ nav{
     font-size: 12px;
 }
 .mobile-nav > div > img{
-    width: 5vw;
+    /* width: 5vw; */
 }
 #mobileLinks{
     display: none;
