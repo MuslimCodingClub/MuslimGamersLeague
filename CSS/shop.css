@@ -121,10 +121,28 @@ body{
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+#firstProduct1{
+  background: url(../images/grayCircle2.png) left bottom no-repeat;
+  backdrop-filter: opacity(0.7);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#firstProduct2{
+  background: url(../images/grayCircle2.png) left bottom no-repeat;
+  backdrop-filter: opacity(0.7);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 .model-image{
   width: 65vh;
   height: inherit;
   margin-top: 10px;
+}
+.model-image1{
+  width: 48vw;
+}
+.model-image2{
+  width: 48vw;
 }
 .mySlides2{
   margin-top: 30vh;
@@ -266,11 +284,11 @@ body{
   bottom: -415px;
 }
 .trendingItem{
-  background: url(../images/mgl-mug.png) no-repeat;
+  background: url(../images/products/mug.png) no-repeat;
   background-position: 100% 100%;
   height: 100%;
   width: inherit;
-  background-size: 60%;
+  background-size: 50%;
   padding: 30px 20px 20px 60px !important;
 }
 
@@ -305,7 +323,7 @@ body{
 }
 .product-Container > img{
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 .product-title{
   font-family: 'Roboto', sans-serif;
@@ -438,8 +456,22 @@ body{
     background-position: 20% 0%;
     background-size: 100vh;
   }
+  #firstProduct1{
+    background-position: 20% 0%;
+    background-size: 100vh;
+  }
+  #firstProduct2{
+    background-position: 20% 0%;
+    background-size: 100vh;
+  }
   .model-image{
     width: 63.5vh;
+  }
+  .model-image1{
+    width: 45vw;
+  }
+  .model-image2{
+    width: 43vw;
   }
   .mySlides{
     margin-left: 10vw;
@@ -458,6 +490,20 @@ body{
 }
 
 @media screen and (max-width: 1230px){
+  #firstProduct1{
+    background-position: 16% 0%;
+    background-size: 100vh;
+  }
+  #firstProduct2{
+    background-position: 16% 0%;
+    background-size: 100vh;
+  }
+  .model-image1{
+    width: 48vw;
+  }
+  .model-image2{
+    width: 52vw;
+  }
   .mySlides{
     margin-left: 5vw;
     padding: 0 5vw;
@@ -493,8 +539,22 @@ body{
     background-position: 20% 93%;
     background-size: 77vh;
   }
+  #firstProduct1{
+    background-position: 20% 93%;
+    background-size: 77vh;
+  }
+  #firstProduct2{
+    background-position: 20% 93%;
+    background-size: 77vh;
+  }
   .model-image{
     width: 50vh;
+  }
+  .model-image1{
+    width: 44vw;
+  }
+  .model-image2{
+    width: 48vw;
   }
   .mySlides2{
     margin-top: 20vh;
@@ -521,7 +581,29 @@ body{
 
 }
 
+@media screen and (max-width: 1000px){
+  .model-image1{
+    width: 48vw;
+  }
+  .model-image2{
+    width: 56vw;
+  }
+  .dots-container{
+    left: 75vw;
+  }
+}
+@media screen and (max-width: 917px){
+  .model-image2{
+    width: 52vw;
+  }
+}
 @media screen and (max-width: 799px){
+  .model-image1{
+    width: 60vw;
+  }
+  .model-image2{
+    width: 60vw;
+  }
   .header3{
     margin: 0 20vw;
   }
@@ -543,7 +625,6 @@ body{
   .mySlides2{
     position: absolute;
     margin-left: 35vw;
-    margin-top: 30.5vh;
     padding: 20px 5vw;
     background-color: rgba(0, 0, 0, 0.692);
     z-index: 500;
@@ -555,6 +636,12 @@ body{
   }
   .slideshow-container{
     min-height: 80vh;
+  }
+  .model-image1{
+    width: 75vw;
+  }
+  .model-image2{
+    width: 75vw;
   }
   .dots-container{
     text-align:center; 
@@ -570,6 +657,7 @@ body{
     position: absolute;
     margin-left: 30vw;
     margin-top: 30.5vh;
+    top: 0;
     padding: 20px 5vw;
     background-color: rgba(0, 0, 0, 0.692);
 
@@ -595,6 +683,12 @@ body{
   }
 }
 @media screen and (max-width: 640px){
+  .model-image1{
+    width: 90vw;
+  }
+  .model-image2{
+    width: 90vw;
+  }
   .leftad{
     position: relative;
     display: flex;
