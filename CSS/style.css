@@ -444,7 +444,8 @@ ul.social-set {
         display: flex;
     }
     .mobile-nav > div >img{
-        width: 15%;
+        width: 40px;
+        height: 40px;
     }
     .mobile-nav > div >h2{
         margin-top: 12px;
